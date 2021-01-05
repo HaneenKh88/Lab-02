@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTUC Library</title>
+   <img  src="https://intaj.net/wp-content/uploads/2020/08/ASAC-Bilingual-1024x220.png" alt="this is the logo" width: 50%; height: 200px>
+   
+
+</head>
+<body style="background-color: black">
+    <header>
+        
+            <nav>
+
+                <ul style="display: inline-block; text-align: right; float: right;">
+
+                    <li style="display: inline-block; font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;"><a style="color: whitesmoke;" href="http://www.ltuc.com/#slideShow">Home</a></li>
+                    <li style="display: inline-block; font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;"> <a style="color: whitesmoke;" href="Library.html">Library</a></li>
+                    <li style="display: inline-block; font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;"><a style="color: whitesmoke;" href="http://www.ltuc.com/#footer">Contact US</a></li>
+                </ul>
+                
+            </nav>
+            
+    </header>
+
+    <main>
+
+        <h1 style="color: rgb(255, 255, 255); font-style: italic; font: bold; font-size: x-large ;"> Class 1 Lab </h1>
+         <p> Welcome to the online Library website </p>
+         <p> </p>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script>
+
+         var username = prompt('please enter your name');
+         console.log ('please enter your Student ID',username);
+         document.write('<p> </p>');
+         document.write('<p style = "color: white; background-color: rgb(131, 73, 83); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center; "> please enter your name</p>');
+         document.write('<p style = "color: white; background-color: rgb(131, 73, 83); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;">' + username + ' </p>');
+         document.write('<p> </p>');
+
+         var StudentID = prompt('please enter your Student ID');
+         console.log ('please enter your Student ID',StudentID);
+         document.write('<p style = "color: white; background-color: rgb(139, 6, 80); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;"> please enter your Student ID </p>');
+         document.write('<p style = "color: white; background-color: rgb(139, 6, 80); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;">' + StudentID + ' </p>');
+         document.write('<p> </p>');
+
+         var BooksBorrow = prompt('How many books you want to borrow');
+         console.log ('How many books you want to borrow', BooksBorrow);
+         document.write('<p style = "color: white; background-color: rgb(54, 7, 43); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;"> How many books you want to borrow </p>');
+         document.write('<p style = "color: white; background-color: rgb(54, 7, 43); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;">' + BooksBorrow + ' </p>');
+         document.write('<p> </p>');
+
+         var Duration = prompt('How long you want to borrow the books');
+         console.log ('How long you want to borrow the books',Duration);
+         document.write('<p style = "color: white; background-color: rgb(39, 0, 0); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;"> How long you want to borrow the books </p>');
+         document.write('<p style = "color: white; background-color: rgb(39, 0, 0); font-style: italic; font: bold; font-size: large ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;">' + Duration + ' </p>');
+
+         document.write('<p> </p>');
+         document.write(' <p style = "color: pink; font-style: italic; font: bold; font-size: large ; padding: 10px; margin: 4px; text-align: center;"> The request has been send <p>'); 
+         
+
+         
+         
+         //var username = getuserinput('please enter your name');
+        // var username = getuserinput('please enter your name');
+         //var username = getuserinput('please enter your name');
+         
+
+    </script>
+
+    
+</body>
+</html>

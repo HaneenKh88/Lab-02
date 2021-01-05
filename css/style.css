@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Desktop-wallpaper-Dark-Floral.jpg");
+  }
+
+  #p1
+  {
+    color: whitesmoke; font-style: italic; font: bold; font-size: x-large ; background-color: rgba(0, 0, 0, 0.616) ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;
+  }
+
+  img
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 160%;
+  }
+
+  a {
+    color: whitesmoke;
+  }
+  
+  li
+  {
+    
+    
+    text-align: center;
+    
+    
+    
+  }
+  .List1
+  {
+    
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; padding: 10px; margin: 4px; text-align: center;
+  
+  
+  }  
