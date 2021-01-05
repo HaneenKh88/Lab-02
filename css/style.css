@@ -23,14 +23,14 @@ body {
   {
     
     
-    text-align: center;
+    text-align: left;
     
     
     
   }
   .List1
   {
-    
+  
     list-style-type: none;
     padding: 0; 
     margin: 0;
@@ -39,3 +39,35 @@ body {
   
   
   }  
+
+  .Food
+  {
+    color: white;
+    margin-left: auto; 
+    margin-right: auto; 
+    width:200px;
+    margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    list-style-position: inside;
+    font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; padding: 10px; margin: 4px; text-align: left;
+
+  }
+
+
+
+  #p2
+  {
+    color: whitesmoke; font-style: italic; font: bold; font-size: x-large ; background-color: rgba(0, 0, 0, 0.616) ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: left;
+  }
+
+  .List2
+  {
+    color: white;
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    list-style-position: inside;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; padding: 10px; margin: 4px; text-align: left;
+  
+  }
