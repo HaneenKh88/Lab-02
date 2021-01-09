@@ -7,8 +7,11 @@ body {
     color: whitesmoke; font-style: italic; font: bold; font-size: x-large ; background-color: rgba(0, 0, 0, 0.616) ; border:2px solid whitesmoke ; padding: 10px; margin: 4px; text-align: center;
   }
 
-  img
+  #img1
   {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,18 +33,18 @@ body {
   }
   .List1
   {
-  
-    list-style-type: none;
+    /*list-style-type: none;*/
     padding: 0; 
     margin: 0;
     background-color: rgba(0, 0, 0, 0.5);
     font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; padding: 10px; margin: 4px; text-align: center;
-  
-  
   }  
 
   .Food
   {
+    float: left;
+    width: 200px;
+    padding: 2px 0px;
     color: white;
     margin-left: auto; 
     margin-right: auto; 
@@ -62,6 +65,7 @@ body {
 
   .List2
   {
+
     color: white;
     list-style-type: none;
     padding: 0; 
@@ -69,5 +73,5 @@ body {
     list-style-position: inside;
     background-color: rgba(0, 0, 0, 0.5);
     font-style: whitesmoke; font-style: italic; font: bold; font-size: large ; padding: 10px; margin: 4px; text-align: left;
-  
+
   }

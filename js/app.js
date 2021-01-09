@@ -1,9 +1,15 @@
 'use strict'
 
-var username = prompt('please enter your name');
-console.log('please enter your name', username);
-var Mark = 0;
 
+var Mark = 0;
+function UserName (Message)
+  {
+  var username = getuserinput(Message);
+  validation(username,Message);
+  }
+
+
+UserName ('Please enter your name');
 guess('Did I graduated from Jordan University ?', 'Oops! Your Aswer is Wrong.', 'Wow, Your Answer is Correct. Im graduated from Jordan University of Science and Technology.')
 guess('Did I take a Database course in HTU?', 'Wow, Your Answer is Correct.', 'Oops! Your Aswer is Wrong.')
 guess('Is my age 25 years old?', 'Oops! Your Aswer is Wrong.', 'Wow, Your Answer is Correct. Im 24 years old.')
@@ -22,7 +28,15 @@ function notify(getMessage) {
     return alert(getMessage);
 }
 
+function validation (value,Message)
+  {
+      while(value === '' || value === null || value === ' ' )
+      {
+          value = prompt(Message);
+      }
+  }
 
+  
 function guess(Qustion, Message, Message2) {
     var Answer = getuserinput(Qustion);
     if (Answer.toLowerCase() === 'yes' || Answer.toLowerCase() === 'y') {
@@ -32,15 +46,18 @@ function guess(Qustion, Message, Message2) {
         notify(Message2);
         Mark++;
     }
+    validation(Answer,Qustion);
 }
 
 
 function GuessingGame(Message) {
     var TimesNumber = 4;
 
+   
 
     for (var i = 0; i < 4; i++) {
         var Qustion = getuserinput(Message);
+        validation(Qustion,Message);
 
         if (parseInt(Qustion) > TimesNumber) {
             notify('Too High');
@@ -59,21 +76,24 @@ function GuessingGame(Message) {
             Mark++;
             break;
         }
-
+        //validation(Qustion,Message);
     }
     if (parseInt(Qustion) !== TimesNumber) {
         notify("Your Answer is wrong, I visit Dead Sea " + TimesNumber + " Times");
     }
+
+    
 
 }
 
 function GameArray(Message) {
     var color = ['red', 'black', 'grey', 'brown'];
 
-
+   
     for (var i = 0; i < 6; i++) {
 
         var Qustion = getuserinput(Message);
+        validation(Qustion,Message);
 
         if (Qustion.toLowerCase() === 'red' || Qustion.toLowerCase() === 'black' || Qustion.toLowerCase() === 'grey' || Qustion.toLowerCase() === 'brown') {
             Mark++;
@@ -86,6 +106,7 @@ function GameArray(Message) {
         }
 
     }
+    validation(Answer,Message);
     return notify('My Favarote Colors is:  ' + color + ' ');
 }
 
